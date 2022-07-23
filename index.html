@@ -4,162 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="밀리콩">
-    <meta property="og:description" content="구름머리 보들이와 자유로운 영혼 젤리를 그려요">
-    <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EB%B0%80%EB%A6%AC%EC%BD%A9/%EB%B3%B4%EB%93%A4%EC%9D%B4.png">
-    <title>밀리콩</title>
+    <meta property="og:title" content="그라데이션">
+    <meta property="og:description" content="바다를 사랑하는 홍길동입니다.">
+    <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EA%B7%B8%EB%9D%BC%EB%8D%B0%EC%9D%B4%EC%85%98/%EB%B0%94%EB%8B%A4.png">
+    <title>그라데이션</title>
     <style>
         @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
         * {
             font-family: "Pretendard",serif;
         }
         body {
-            background-color:#3C3D47;
-        }
-        .pro {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            margin-bottom: 40px;
+            background: linear-gradient(180deg, #422B83 0%, #4A629F 100%);
+            height: 100vh;
         }
         .profile {
-            width: 58px;
-            height: 58px;
+            width: 100px;
+            height: 100px;
             border-radius: 100%;
-            border: 1px solid black;
-            background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EB%A5%B4%ED%83%84+%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90/%EB%A5%B4%ED%83%84%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90%ED%94%84%EB%A1%9C%ED%95%84.png');
+            background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EA%B7%B8%EB%9D%BC%EB%8D%B0%EC%9D%B4%EC%85%98/%EB%B0%94%EB%8B%A4.png');
             background-position: center;
             background-size: cover;
         }
-        .headcopy {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            width: 260px;
-        }
         .main {
             color : #FFFFFF;
-            font-size: 27px;
+            font-size: 18px;
             size : 20px;
-            font-weight: 800;
-            margin: 0%;
+            margin-top: 30px;
+            margin-bottom: 10px;
         }
         .sub {
-            color : #B1B1B5;
+            color : #FFFFFF;
             font-size: 14px;
             font-weight: 400;
             size : 14px;
-            margin-top: 10px;
-        }
-        .minis {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 0px;
-            gap: 7px;
-            margin-bottom: 68px;
-        }
-        .minis > a {
-            width: 102px;
-            height: 48px;
-            border-radius: 32px;
-            text-decoration: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 12px;
-            white-space:pre-wrap;
-        }
-        .notion {
-            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #F7F6F3;
-            color:#84827D;
-        }
-        .brunch {
-            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #02C3BD;
-            color:#FFFFFF;
-        }
-        .facebook {
-            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #4167B3;
-            color:#FFFFFF;
+            margin-top: 0px;
+            margin-bottom: 30px;
         }
         .wrap {
-            width: 320px;
+            width: 300px;
             margin: 30px auto 0px auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-        .bigs {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 0px;
-            gap: 10px;
-        }
-        .bigs > a {
-            width: 123px;
+        .wrap > a {
+            width: 320px;
+            height: 59px;
+            border-radius: 5px;
             background-color: white;
             margin-bottom: 16px;
+            font-size: 16px;
+            font-weight: bold;
+            color:#382863;
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
+            justify-content: center;
+            align-items: center;
             text-decoration: none;
-            padding: 20px 16px 16px 16px;
-            border-radius: 8px;
-        }
-        .name {
-            font-size: 22px;
-            font-weight: 700;
-            color: #222222;
-            margin-bottom: 45px;
-        }
-        .desc {
-            font-size: 12px;
-            font-weight: 500;
-            color: #555555;
-            margin-bottom: 24px;
-        }
-        .btn {
-            font-size: 12px;
-            font-weight: 700;
-            color: #ffffff;
-            background-color: #26C50C;
-            border-radius: 4px;
-            padding: 5px 4px 5px 4px;
+            border: 1px solid #353432;
         }
     </style>
 </head>
 <body>
     <div class="wrap">
-        <div class="pro">
-            <div class="headcopy">
-                <h1 class="main">프로덕트 매니저<br>김르탄 입니다.</h1>
-                <p class="sub">데이터에 강점이 있는 주니어 PM입니다.</p>
-            </div>
-            <div class="profile"></div>
-        </div>
-        <div class="minis">
-            <a class="notion" target="_blank" href="https://spartacodingclub.kr/">노션             <span style="color:#FFFFFF">></span></a>
-            <a class="brunch" target="_blank" href="https://spartacodingclub.kr/">브런치         ></a>
-            <a class="facebook" target="_blank" href="https://spartacodingclub.kr/">페이스북       ></a>
-        </div>
-        <div style="color:#FFFFFF;width: 320px;font-size: 14px;margin-bottom: 8px;">저를 소개합니다.</div>
-        <div class="bigs">
-            <a target="_blank" href="https://drive.google.com/file/d/1vKXXHboiF39D8OdandIZRlAVe4ggnONb/view">
-                <div class="name">이력서</div>
-                <div class="desc">데이터에서 문제를 찾고<br>명확한 가설에 집중하는<br>PM입니다.</div>
-                <div class="btn">다운로드</div>
-            </a>
-            <a target="_blank" href="https://drive.google.com/file/d/1vKXXHboiF39D8OdandIZRlAVe4ggnONb/view">
-                <div class="name">포트폴리오</div>
-                <div class="desc">애자일하게 일하며<br>성과를 냈었던 경험을<br>담았습니다.</div>
-                <div class="btn">다운로드</div>
-            </a>
-        </div>
-        <div style="color:#B1B1B5;font-size: 14px;background-position: center;background-size: cover;position: absolute;bottom: 50px;">@kimrtan</div>
+        <div class="profile"></div>
+        <h1 class="main">홍길동</h1>
+        <p class="sub">안녕하세요 바다를 사랑하는 홍길동입니다.</p>
+        <a style="background-color: #F3EDFF;" target="_blank" href="https://spartacodingclub.kr/">버튼명</a>
+        <a target="_blank" href="https://spartacodingclub.kr/community/blog">블로그</a>
+        <a style="background-color: #F3EDFF;" target="_blank" href="https://spartacodingclub.kr/">페이스북</a>
+        <a target="_blank" href="https://spartacodingclub.kr/">브런치</a>
     </div>
 </body>
 </html>
